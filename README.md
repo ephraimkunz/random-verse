@@ -1,7 +1,7 @@
 # random-verse
 Simple API endpoint to get a random scripture verse each day. Day here is defined as a calendar day on the west coast (Pacific Time Zone).
 
-* To use, hit https://random-verse.shuttleapp.rs. You'll received JSON like this:
+* To use, hit https://random-verse.shuttleapp.rs. You'll receive JSON like this:
 
 ```json
 {
