@@ -1,1 +1,1 @@
-cargo shuttle deploy
+cargo shuttle deploy --allow-dirty
