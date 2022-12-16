@@ -8,7 +8,7 @@ description = "A random scripture verse for each day"
 crate-type = ["cdylib"]
 
 [dependencies]
-shuttle-service = { version = "0.5.2", features = ["web-rocket"] }
+shuttle-service = { version = "0.8", features = ["web-rocket"] }
 rocket = { version = "0.5.0-rc.2", features = ["json"] }
 serde_json = "1"
 serde = {version = "1", features = ["derive"] }
