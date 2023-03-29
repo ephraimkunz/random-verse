@@ -37,9 +37,9 @@ fn index() -> Json<Verse> {
     Json(verses[(hash % verses.len() as u64) as usize].clone())
 }
 
-#[shuttle_service::main]
-async fn init() -> Result<Rocket<Build>, shuttle_service::Error> {
+#[shuttle_runtime::main]
+async fn init() -> shuttle_rocket::ShuttleRocket {
     let rocket = rocket::build().mount("/", routes![index]);
 
-    Ok(rocket)
+    Ok(rocket.into())
 }
