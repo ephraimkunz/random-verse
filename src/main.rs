@@ -2,7 +2,6 @@
 extern crate rocket;
 
 use rocket::serde::{self, json::Json};
-use rocket::{Build, Rocket};
 use std::collections::hash_map::DefaultHasher;
 use std::hash::{Hash, Hasher};
 use time_tz::{timezones, OffsetDateTimeExt};
