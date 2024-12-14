@@ -1,7 +1,7 @@
 # random-verse
 Simple API endpoint to get a random scripture verse each day. Day here is defined as a calendar day on the west coast (Pacific Time Zone). The verse you get will remain consistent throughout each day, and will change when the day rolls over.
 
-* To use, hit https://random-verse.shuttleapp.rs. You'll receive JSON like this:
+* To use, hit https://random-verse-rj0h.shuttle.app. You'll receive JSON like this:
 
 ```json
 {
@@ -16,5 +16,5 @@ Simple API endpoint to get a random scripture verse each day. Day here is define
 }
 ```
 
-* This project uses [Shuttle](https://www.shuttle.rs) to deploy and serve content. Run `cargo shuttle deploy --allow-dirty` to deploy a new version.
+* This project uses [Shuttle](https://www.shuttle.rs) to deploy and serve content. Run `shuttle deploy` to deploy a new version.
 * Book of Mormon and KJV bible text comes from the [LDS Documentation Project](https://scriptures.nephi.org/start).
