@@ -4,7 +4,7 @@ extern crate rocket;
 use rocket::serde::{self, json::Json};
 use std::collections::hash_map::DefaultHasher;
 use std::hash::{Hash, Hasher};
-use time_tz::{timezones, OffsetDateTimeExt};
+use time_tz::{OffsetDateTimeExt, timezones};
 
 #[derive(serde::Deserialize, serde::Serialize, Clone)]
 struct Verse {
