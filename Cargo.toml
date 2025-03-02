@@ -1,12 +1,12 @@
 [package]
 name = "random-verse"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 description = "A random scripture verse for each day"
 
 [dependencies]
-shuttle-rocket = "0.49"
-shuttle-runtime = "0.49"
+shuttle-rocket = "0.52"
+shuttle-runtime = "0.52"
 tokio = "1"
 rocket = { version = "0.5.0-rc.3", features = ["json"] }
 serde_json = "1"
